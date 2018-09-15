@@ -1,7 +1,7 @@
 # Hack the North 2018
-Project Name: TBD
+Project Name: Mouseless
 
-_Introducing *AppName*_ 
+_Introducing *Mouseless*_ 
 Use hand gestures to control the website you're currently on.
 
 # Schedule
