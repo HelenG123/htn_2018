@@ -1,7 +1,7 @@
 # Hack the North 2018
 Project Name: Mouseless
 
-_Introducing *Mouseless*_ 
+_Introducing Mouseless_ 
 Use hand gestures to control the website you're currently on.
 
 # Schedule
