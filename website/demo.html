@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head lang="en">
-        <title>Mouseless</title>
+        <title>Demo</title>
         <meta charset="UTF-8">
         <link rel="icon" type="image/png" href="..\media\mouseless_logo_2.png">
         <script src="../LeapCursor.js/leapcursor-with-dependencies.min.js?gestureColor=#fdbf2d"></script>
         <link href="https://fonts.googleapis.com/css?family=Amaranth|Tajawal" rel="stylesheet">
+        
         <style>
             body {
                 font-size: 30px;
@@ -19,6 +20,26 @@
                 font-family: 'Amaranth', sans-serif;
                 margin-bottom: -0px;
             }
+            a {
+            /* display: none; */
+            text-align: center;
+            /* Representing the links to all the other pages */
+            font-size: 70px;
+            color: black;
+            text-decoration: none;
+            /* padding-top: 20px; */
+            bottom: 0px;
+
+        }
+
+        a:hover {
+            /* Bold the item in the nav menu when hovered on */
+            /* display: none; */
+
+            font-weight: bold;
+            font-size: 55px;
+            transition: 0.1s;
+        }
         </style>
     </head>
     <body>
@@ -53,5 +74,10 @@
         <video width="400" controls>
                 <source src="../media/demo_vid.mp4" type="video/mp4">
         </video>
+
+        <nav>
+            <!-- Link locally to the other page -->
+              <a href="temp_default.html"> Home </a>
+    </nav>
     </body>
 </html>
