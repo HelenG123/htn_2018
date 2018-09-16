@@ -1,7 +1,7 @@
 # Hack the North 2018
 _Introducing Mouseless_
-Use hand gestures to control the website you're currently on.
-TO DO: demo
+A mouse-free browser experience
+![Alt Text](/media/leaps_trainer_gif.gif)
 
 ## Contents
 TO DO:
