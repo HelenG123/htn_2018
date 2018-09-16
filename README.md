@@ -33,25 +33,7 @@ TO DO: Video/gif
   - The UI provides a `.json` with the
 
 **2. Frontend procedure**
-  - TODO  
+  - TODO  : pic of our website
 
-
-
-
-
-
-# Schedule
-_Saturday, September 15, 2018_
-
-Part 1
-  * Create a website that enables webcam.
-  * Link the API to the website.
-  * Create the above to be the demo/train section of the website.
-
-Part 2
-  * Create a website that enables webcam but doesn't display the video.
-  * Link the API to the website.
-  * Test the API is working without the live video.
-
-Part 3
-  * Create a google extensions that gives the user a choice to use this feature.
+## Future work
+We would like to implement browser extensions for the major browsers such as Google Chrome and Mozilla Firefox.
