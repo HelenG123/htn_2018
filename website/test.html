@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 0.3;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2><center>Our team</center></h2>
+
+
+<div class="row">
+	<div class="column">
+		<div class="container">
+  		<img src="img_avatar.png" alt="Avatar" class="image">
+  		<div class="overlay">
+    		<div class="text">Hello World</div>
+  			</div>
+		</div>
+	</div>
+  <div class="column">
+      <div class="container">
+          <img src="img_avatar.png" alt="Avatar" class="image">
+          <div class="overlay">
+          <div class="text">Hello World</div>
+          </div>
+      </div>
+  </div>
+
+<div class="column">
+      <div class="container">
+          <img src="img_avatar.png" alt="Avatar" class="image">
+          <div class="overlay">
+          <div class="text">Hello World</div>
+          </div>
+      </div>
+ </div>
+</div>
+<div class="row">
+	<div class="column">
+    <center>
+    <a href="#link"><i class="fa fa-at"></i></a>
+    <a href="#link"><i class="fa fa-github"></i></a>
+    <a href="#link"><i class="fa fa-linkedin-square"></i></a>
+    </center>
+    </div>
+    <div class="column">
+    <center>
+    <a href="#link"><i class="fa fa-at"></i></a>
+    <a href="#link"><i class="fa fa-github"></i></a>
+    <a href="#link"><i class="fa fa-linkedin-square"></i></a>
+    </center>
+    </div>
+    <center>
+    <div class="column">
+    <a href="#link"><i class="fa fa-at"></i></a>
+    <a href="#link"><i class="fa fa-github"></i></a>
+    <a href="#link"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    </center>
+</div>
+
+
+</body>
+</html>
