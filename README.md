@@ -3,9 +3,6 @@ _Introducing Mouseless_: A mouse-free browser experience for a more accessible W
 <img src="https://github.com/HelenG123/htn_2018/blob/master/media/mouseless_logo_2.png" width="200"> <br>
 Our website can be found [here](TODO)
 
-## Contents
-TO DO:
-
 ## Setup
 **1. Hardware**
    - [Leap Motion Controller](https://www.leapmotion.com/)
@@ -27,13 +24,13 @@ TO DO:
 
 **1. Backend procedure**
   - Gestures are recorded through the Leap Motion Controller via the Leap Motion SDK v2.3.1.
-  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="500"> <br>
+  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="550"> <br>
   - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)) 
   ![Alt Text](/media/leaps_trainer_gif.gif)
   - The UI provides a `.json` with the learned features
 
 **2. Frontend procedure**
-  - TODO  : pic of our website
+  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/website.png" width="1000">
 
 ## Future work
 We would like to implement browser extensions for the major browsers such as Google Chrome and Mozilla Firefox.
