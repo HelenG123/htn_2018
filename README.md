@@ -1,7 +1,6 @@
 # Mouseless: Project for Hack the North 2018
 _Introducing Mouseless_: A mouse-free browser experience for a more accessible Web <br>
 <img src="https://github.com/HelenG123/htn_2018/blob/master/media/mouseless_logo_2.png" width="200"> <br>
-Our website can be found [here](https://heleng123.github.io/htn_2018/)
 
 ## Setup
 **1. Hardware**
@@ -30,6 +29,7 @@ Our website can be found [here](https://heleng123.github.io/htn_2018/)
   - The UI provides a `.json` with the learned features
 
 **2. Frontend procedure**
+- Our website can be cloned from [here](https://github.com/HelenG123/htn_2018/tree/master/website)
   <img src="https://github.com/HelenG123/htn_2018/blob/master/media/website.png" width="1000">
 
 ## Future work
