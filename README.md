@@ -1,6 +1,6 @@
 # Hack the North 2018
-_Introducing Mouseless_
-A mouse-free browser experience
+_Introducing Mouseless_: A mouse-free browser experience for a more accessible Web <br>
+<img src="https://github.com/HelenG123/htn_2018/blob/master/media/mouseless_logo_2.png" width="200"> <br>
 Our website can be found [here](TODO)
 
 ## Contents
@@ -16,7 +16,6 @@ TO DO:
         - USB 2.0 port
         - Internet connection
 
-
 **2. Computer & Software**
    - [Leap Motion SDK v2.3.1](https://developer.leapmotion.com/sdk/v2)
    - [Gesture learning and recognition framework](https://github.com/roboleary/LeapTrainer.js)
@@ -30,8 +29,9 @@ TO DO:
   - Gestures are recorded through the Leap Motion Controller via the Leap Motion SDK v2.3.1.
   <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="500">
   - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)
-    ![Alt Text](/media/leaps_trainer_gif.gif)
-  - The UI provides a `.json` with the
+    
+  ![Alt Text](/media/leaps_trainer_gif.gif)
+  - The UI provides a `.json` with the learned features
 
 **2. Frontend procedure**
   - TODO  : pic of our website
