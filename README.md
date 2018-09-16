@@ -1,7 +1,7 @@
 # Hack the North 2018
 _Introducing Mouseless_
 A mouse-free browser experience
-![Alt Text](/media/leaps_trainer_gif.gif)
+Our website can be found [here](TODO)
 
 ## Contents
 TO DO:
@@ -28,7 +28,7 @@ TO DO:
 
 **1. Backend procedure**
   - Gestures are recorded through the Leap Motion Controller via the Leap Motion SDK v2.3.1.
-TO DO: Video/gif
+  ![Alt Text](/media/leaps_trainer_gif.gif)
   - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)
   - The UI provides a `.json` with the
 
