@@ -1,0 +1,26 @@
+// Following the instructions from: 
+// https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: white; 
+
+    // font-size: 50px;
+    // font-family: 
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 80px;
+    vertical-align: bottom; 
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title> Mouseless </title>
+    <!-- Customizing fonts and the window icon  -->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Tajawal" rel="stylesheet">
+    <link rel="icon" type="image/png" href="..\media\mouseless_logo_2_transparent.png">
+
+    <!-- To use jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <style>
+        body {
+            /* Put the logo as the background and ensure it doesn't move
+            due to jQuery animations */
+            background-color: #fcf5e5;
+            background-image: url("../media/mouseless_logo_transparent2.png");
+            background-repeat: no-repeat;
+            background-position: 97% center;
+            background-attachment: fixed;
+            background-size: 50%;
+            font-family: 'Tajawal', sans-serif;
+            text-align: left;
+        }
+
+        h1 {
+            /* Represents the 'Mouseless' title  */
+            display: none;
+            font-family: 'Amaranth', sans-serif;
+            font-size: 200px;
+            margin-top: -5px;
+            text-align: center;
+        }
+
+        h2 {
+            /* Representing 'a mouse-free browsing experience' */
+            display: none;
+            margin-top: -140px;
+            padding-left: 5px;
+            text-align: center;
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        /* nav {
+
+            position: bottom;
+        } */
+
+        a {
+            display: none;
+            /* Representing the links to all the other pages */
+            font-size: 70px;
+            color: black;
+            text-decoration: none;
+            padding: 50px;
+        }
+
+        a:hover {
+            /* Bold the item in the nav menu when hovered on */
+            /* display: none; */
+            font-weight: bold;
+            font-size: 75px;
+            transition: 0.1s;
+        }
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <script>
+        // Fade in the title, its brief description, and the menu items
+        $(document).ready(function () {
+            $("h1").fadeIn(3000, function () {
+                $("h2").fadeIn(2000, function() {
+                    $("a").fadeIn(1000).css("display", "inline-block");
+                });
+            });
+        });
+
+
+    </script>
+      <h1> Mouseless </h1>
+      <h2> a mouse-free browsing experience </h2>
+
+      <nav>
+          <!-- Link locally to the other page -->
+            <a href="product.html"> Product </a>
+            <a href="/"> Journey </a>
+            <a href="/"> Demo </a>
+            <a href="/"> The Team </a>
+      </nav>
+
+
+
+  </body>
+</html>

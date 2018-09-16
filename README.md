@@ -1,9 +1,15 @@
 # Hack the North 2018
+<<<<<<< HEAD
 _Introducing Mouseless_
 A mouse-free browser experience
 ![Alt Text](/media/leaps_trainer_gif.gif)
 
 Our website can be found [here]()
+=======
+_Introducing Mouseless_: A mouse-free browser experience for a more accessible Web <br>
+<img src="https://github.com/HelenG123/htn_2018/blob/master/media/mouseless_logo_2.png" width="200"> <br>
+Our website can be found [here](TODO)
+>>>>>>> c3f9b8e5d3b3ab190819371afd0a0cb50bc6fa9f
 
 ## Contents
 TO DO:
@@ -18,7 +24,6 @@ TO DO:
         - USB 2.0 port
         - Internet connection
 
-
 **2. Computer & Software**
    - [Leap Motion SDK v2.3.1](https://developer.leapmotion.com/sdk/v2)
    - [Gesture learning and recognition framework](https://github.com/roboleary/LeapTrainer.js)
@@ -30,9 +35,16 @@ TO DO:
 
 **1. Backend procedure**
   - Gestures are recorded through the Leap Motion Controller via the Leap Motion SDK v2.3.1.
+<<<<<<< HEAD
     ![Alt Text]()
   - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)
   - The UI provides a `.json` with the
+=======
+  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="500"> <br>
+  - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)) 
+  ![Alt Text](/media/leaps_trainer_gif.gif)
+  - The UI provides a `.json` with the learned features
+>>>>>>> c3f9b8e5d3b3ab190819371afd0a0cb50bc6fa9f
 
 **2. Frontend procedure**
   - https://github.com/jeromelachaud/freelancer-theme
