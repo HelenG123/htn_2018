@@ -2,10 +2,9 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <title> Mouseless </title>
     <!-- Customizing fonts and the window icon  -->
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Tajawal" rel="stylesheet">
-    <link rel="icon" type="image/png" href="..\media\mouseless_logo_2_transparent.png">
+    <link rel="icon" type="image/png" href="..\media\mouseless_logo_2.png">
     
     <!-- To use jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,14 +15,13 @@
             /* Put the logo as the background and ensure it doesn't move
             due to jQuery animations */
             background-color: #fcf5e5; 
-            background-image: url("../media/mouseless_logo_2_transparent.png");
+            background-image: url("../media/mouseless_logo_2.png");
             background-repeat: no-repeat;
-            background-position: right;
+            background-position: center;
             background-attachment: fixed;
-            /* background-blend-mode: lighten; */
-            background-size: 80%;
+            background-size: 50%; 
             font-family: 'Tajawal', sans-serif;
-            text-align: left;
+            text-align: center;
         }
 
         h1 {
@@ -41,10 +39,9 @@
             font-size: 50px;
         }
 
-        /* nav {
-        
-            position: bottom;
-        } */
+        nav {
+            margin-top: -20px;
+        }
 
         a {
             display: none;
@@ -73,24 +70,26 @@
         // Fade in the title, its brief description, and the menu items
         $(document).ready(function () {
             $("h1").fadeIn(3000, function () {
-                $("h2").fadeIn(2000, function() {
-                    $("a").fadeIn(1000).css("display", "inline-block");
-                });
+                $("a").fadeIn(2000, function() {
+                    $("h2").fadeIn(1000);
+                }).css("display", "inline-block");
             });
         });
 
 
     </script>
-      <h1> Mouseless </h1>
-      <h2> a mouse-free browsing experience </h2> 
-    
+      <h1> Product </h1>
       <nav> 
-          <!-- Link locally to the other page -->
-            <a href="product.html"> Product </a>
-            <a href="/"> Journey </a>
-            <a href="/"> Demo </a>
-            <a href="/"> The Team </a>
-      </nav>
+            <!-- Link locally to the other page -->
+              <a href="temp_default.html"> Home </a>
+              <a href="/"> Journey </a>
+              <a href="/"> Demo </a>
+              <a href="/"> The Team </a>
+    </nav>
+      
+      <!-- <h2> Making Technology Accessible to veryone </h2>  -->
+    
+      
 
 
     
