@@ -1,7 +1,7 @@
 # Mouseless: Project for Hack the North 2018
 _Introducing Mouseless_: A mouse-free browser experience for a more accessible Web <br>
 <img src="https://github.com/HelenG123/htn_2018/blob/master/media/mouseless_logo_2.png" width="200"> <br>
-Our website can be found [here](https://demo-mouseless.000webhostapp.com/)
+Our website can be found [here](https://heleng123.github.io/htn_2018/)
 
 ## Setup
 **1. Hardware**
