@@ -27,9 +27,8 @@ TO DO:
 
 **1. Backend procedure**
   - Gestures are recorded through the Leap Motion Controller via the Leap Motion SDK v2.3.1.
-  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="500">
-  - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)
-    
+  <img src="https://github.com/HelenG123/htn_2018/blob/master/media/lead_hardware.jpg" width="500"> <br>
+  - Gesture are acquired and learned through the [Gesture learning and recognition framework's online user interface](https://rawgit.com/roboleary/LeapTrainer.js/master/trainer-ui.html)) 
   ![Alt Text](/media/leaps_trainer_gif.gif)
   - The UI provides a `.json` with the learned features
 
